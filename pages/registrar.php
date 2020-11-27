@@ -22,6 +22,7 @@
             </form>
         </div>      
     </div> <!-- Termina el div del admin -->
-    <?php
+ 
+ <?php
     include('includes/pie.php');
-    ?>
+?>

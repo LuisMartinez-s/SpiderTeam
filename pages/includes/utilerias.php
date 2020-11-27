@@ -5,6 +5,7 @@
         include('includes/pie-redireccion.php');
         header("refresh:2;url=$url");
     }
+
     function conectar(){
         DEFINE ("SERVIDOR","localhost");
         DEFINE ("USUARIO","root");
