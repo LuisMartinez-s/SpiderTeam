@@ -59,7 +59,7 @@
                 <a class="nav-link" href="#">Oferta educativa</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Eventos</a>
+                <a class="nav-link" href="../pages/eventos.php">Eventos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../pages/formVisita.php">Visitas</a>
