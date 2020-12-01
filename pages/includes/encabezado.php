@@ -18,6 +18,9 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="../assets/css/style.css">
 <!--====login css-->
   <!-- main css -->
   <link rel="stylesheet" href="../css/style.css" />
@@ -49,7 +52,7 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav ml-auto">
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="index.php">Inicio</a>
               </li>
               <li class="nav-item">
@@ -74,10 +77,13 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#">Certificaciones</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/test.php">Test Vocacional</a>
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Ayuda</a>
+                <a class="nav-link" href="../pages/faq.php">Ayuda</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link trigger-btn" href="#myModal" data-toggle="modal">Iniciar sesión</a>

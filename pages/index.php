@@ -2,7 +2,7 @@
 <?php
 include('includes/encabezado.php');
 ?> 
-
+ 
  <!--================ Start Home Banner Area =================-->
   <section class="home_banner_area">
     <div class="banner_inner">
