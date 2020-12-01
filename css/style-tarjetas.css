@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Barriecito|Indie+Flower&display=swap');
+
+/*De interés*/
+.tarjeta-interes{
+    background-color: white;
+    width: 275px;    
+    height: fit-content;
+    margin: 1em;
+    padding: 1em;
+    border: black solid 3px;
+    box-shadow: 5px 5px rgb(117, 87, 3, 0.4);
+    border-radius: 20px;
+}
+
+.tarjeta-interes:hover{
+    box-shadow: 5px 5px rgba(228, 186, 71, 0.685);
+}
+
+.tarjeta-interes img{
+    width: 100%;
+    border: 3px dashed #002347;  
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;  
+}
+.tarjeta-interes h3{
+    color: black;
+    font-family: 'Acme', sans-serif;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.tarjeta-interes a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 2px;
+    font-family: 'Acme', sans-serif;
+}
+
+
+.tarjeta-interes > a{
+    display: inline-block;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #002347;
+    width: auto;
+    border: 3px solid black;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;   
+    text-align: center; 
+}
+
+.tarjeta-interes > a:hover{
+    transform: rotate(+10deg);
+}
+
+.tarjeta-interes > p{
+    text-align: center;
+}
+
+.contenedor-tarjetas-interes{
+    background-color:#f38124;    
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;    
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 6em;
+    border-radius: 25px; 
+}
+
+.contenedor-principal-interes{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    border: 5px solid white;
+    background-color: white;    
+}
+
+/* FIN DE TARJETAS DE INTERÉS*/

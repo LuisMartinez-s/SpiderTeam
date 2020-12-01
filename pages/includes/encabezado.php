@@ -21,6 +21,7 @@
 <!--====login css-->
   <!-- main css -->
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/style-tarjetas.css" />
 </head>
 
 <body>
@@ -59,25 +60,28 @@
                 <a class="nav-link" href="../pages/ofertaEducativa.php">Oferta educativa</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Eventos</a>
+                <a class="nav-link" href="eventos.php">Eventos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../pages/formVisita.php">Visitas</a>
               </li>
 
               <li class="nav-item submenu dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">De interés</a>
+                <a href="../pages/deinteres.php" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">De interés</a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Becas</a>
+                    <a class="nav-link" href="../pages/deinteres.php">Becas</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Certificaciones</a>
+                    <a class="nav-link" href="../pages/deinteres.php">Certificaciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/test.php">Test Vocacional</a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Ayuda</a>
+                <a class="nav-link" href="faq.php">Ayuda</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link trigger-btn" href="#myModal" data-toggle="modal">Iniciar sesión</a>

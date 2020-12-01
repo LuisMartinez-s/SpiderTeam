@@ -147,7 +147,7 @@ include('includes/encabezado.php');
                 <span class="price"><i class="ti-gallery"></i></span>
                 <span class="tag mb-4 d-inline-block">Ver más</span>
                 <h4 class="mb-3">
-                  <a href="course-details.html">Eventos</a>
+                  <a href="eventos.php">Eventos</a>
                 </h4>
                 <p>
                   ¡Somos una comunidad estudiantil en constante crecimiento! Entérate de nuestros eventos mas
@@ -330,14 +330,14 @@ include('includes/encabezado.php');
               <p>
                 ¡Se parte de la increible jornada académica de computación!
               </p>
-              <a href="#" class="primary-btn rounded-0 mt-3">View Details</a>
+              <a href="#" class="primary-btn rounded-0 mt-3">Ver más</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-12">
           <div class="text-center pt-lg-5 pt-3">
-            <a href="#" class="event-link">
+            <a href="#" class="h1 event-link ">
               Ver todos <img src="../img/next.png" alt="" />
             </a>
           </div>

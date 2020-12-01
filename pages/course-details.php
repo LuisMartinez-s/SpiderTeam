@@ -76,7 +76,7 @@ include('includes/encabezado.php');
               <ul class="course_list">
                 <li class="justify-content-between d-flex">
                   <p>Arquitectura</p>
-                  <a class="primary-btn text-uppercase" href="#">Ver más</a>
+                  <a class="primary-btn text-uppercase" href="https://www.tepic.tecnm.mx/plandeestudios/materias/arq" target="_blank">Ver más</a>
                 </li>
                 <li class="justify-content-between d-flex">
                   <p>Ingeniería Bioquímica</p>
