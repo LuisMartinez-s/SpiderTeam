@@ -18,7 +18,7 @@
 
 .tarjeta-interes img{
     width: 100%;
-    border: 3px dashed #002347;  
+    /*border: 3px dashed #002347;  */
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;  
 }
@@ -53,7 +53,10 @@
 }
 
 .tarjeta-interes > a:hover{
-    transform: rotate(+10deg);
+    /*transform: rotate(+10deg);*/
+    color:orange;
+    border: 1px solid orange;
+    background: white;
 }
 
 .tarjeta-interes > p{
