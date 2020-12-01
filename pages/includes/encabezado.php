@@ -56,7 +56,7 @@
                 <a class="nav-link" href="../pages/galeria.php">Galeria</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Oferta educativa</a>
+                <a class="nav-link" href="../pages/ofertaEducativa.php">Oferta educativa</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Eventos</a>

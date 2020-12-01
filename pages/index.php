@@ -116,7 +116,7 @@ include('includes/encabezado.php');
                 <span class="price"><i class="ti-book"></i></span>
                 <span class="tag mb-4 d-inline-block">Ver más</span>
                 <h4 class="mb-3">
-                  <a href="course-details.html">Oferta educativa</a>
+                  <a href="ofertaEducativa.php">Oferta educativa</a>
                 </h4>
                 <p>
                   ¿Ingeniería, Arquitectura, Licenciatura, Maestría, Doctorado? Conoce nuestras opciones.
@@ -131,18 +131,17 @@ include('includes/encabezado.php');
                 <span class="price"><i class="ti-map-alt"></i></span>
                 <span class="tag mb-4 d-inline-block">Ver más</span>
                 <h4 class="mb-3">
-                  <a href="course-details.html">Visitas guiadas</a>
+                  <a href="formvisita.php">Visitas guiadas</a>
                 </h4>
                 <p>
-                  ¿Te interesa conocer las instalaciones del Instituto y realizar un test vocacional? Agenda una
-                  visita.
+                  ¿Te interesa conocer las instalaciones del Instituto y realizar un test vocacional? Agenda una visita.
                 </p>
               </div>
             </div>
 
             <div class="single_course">
               <div class="course_head">
-                <img class="img-fluid" src="img/courses/eventos_tec2.jpg" alt="" />
+                <img class="img-fluid" src="../img/courses/eventos_tec2.jpg" alt="" />
               </div>
               <div class="course_content">
                 <span class="price"><i class="ti-gallery"></i></span>
@@ -339,7 +338,7 @@ include('includes/encabezado.php');
         <div class="col-lg-12">
           <div class="text-center pt-lg-5 pt-3">
             <a href="#" class="event-link">
-              Ver todos <img src="img/next.png" alt="" />
+              Ver todos <img src="../img/next.png" alt="" />
             </a>
           </div>
         </div>
@@ -367,7 +366,7 @@ include('includes/encabezado.php');
           <div class="testi_item">
             <div class="row">
               <div class="col-lg-4 col-md-6">
-                <img src="img/testimonials/user.png" alt="" />
+                <img src="../img/testimonials/user.png" alt="" />
               </div>
               <div class="col-lg-8">
                 <div class="testi_text">
@@ -382,7 +381,7 @@ include('includes/encabezado.php');
           <div class="testi_item">
             <div class="row">
               <div class="col-lg-4 col-md-6">
-                <img src="img/testimonials/user.png" alt="" />
+                <img src="../img/testimonials/user.png" alt="" />
               </div>
               <div class="col-lg-8">
                 <div class="testi_text">
@@ -397,7 +396,7 @@ include('includes/encabezado.php');
           <div class="testi_item">
             <div class="row">
               <div class="col-lg-4 col-md-6">
-                <img src="img/testimonials/user.png" alt="" />
+                <img src="../img/testimonials/user.png" alt="" />
               </div>
               <div class="col-lg-8">
                 <div class="testi_text">
@@ -412,7 +411,7 @@ include('includes/encabezado.php');
           <div class="testi_item">
             <div class="row">
               <div class="col-lg-4 col-md-6">
-                <img src="img/testimonials/user.png" alt="" />
+                <img src="../img/testimonials/user.png" alt="" />
               </div>
               <div class="col-lg-8">
                 <div class="testi_text">
@@ -427,7 +426,7 @@ include('includes/encabezado.php');
           <div class="testi_item">
             <div class="row">
               <div class="col-lg-4 col-md-6">
-                <img src="img/testimonials/user.png" alt="" />
+                <img src="../img/testimonials/user.png" alt="" />
               </div>
               <div class="col-lg-8">
                 <div class="testi_text">
@@ -446,27 +445,12 @@ include('includes/encabezado.php');
   </div>
   <!--================ End Testimonial Area =================-->
 
-  <!--================ Start footer Area  =================-->
-  <footer class="footer-area section_gap">
-    <div class="container">
-    <div class="row footer-bottom d-flex justify-content-between">
-      <p class="col-lg-8 mb-1 mt-0  col-sm-12 footer-text m-0 text-white">
-       
-        Copyright &copy;
-        <script>document.write(new Date().getFullYear());</script> Todos los derechos reservados <a
-          href="https://www.tepic.tecnm.mx/" target="_blank">TecNm Campus Tepic</a>
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-      </p>
-      <div class="col-lg-4 col-sm-12 footer-social">
-        <a href="#"><i class="ti-facebook"></i></a>
+  
 
-      </div>
-    </div>
-    </div>
-  </footer>
-  <!--================ End footer Area  =================-->
+ <?php
+ include('includes/footer.php');
 
- 
+?>
 </body>
  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
  <script src="../js/jquery-3.2.1.min.js"></script>
