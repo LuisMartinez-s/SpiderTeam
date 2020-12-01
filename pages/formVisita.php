@@ -147,6 +147,10 @@ include('includes/encabezado.php');
                     <label class="form-label" for="contact-date">Fecha a visitar</label>
                   </div>
                   <div class="form-wrap">
+                    <input class="form-input" id="Area" type="text" name="area" data-constraints="@Required">
+                    <label class="form-label" for="Area">Area de interes</label>
+                  </div>
+                  <div class="form-wrap">
                     <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
                     <label class="form-label" for="contact-name">Nombre de la escuela</label>
                   </div>
@@ -161,6 +165,10 @@ include('includes/encabezado.php');
                   <div class="form-wrap">
                     <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
                     <label class="form-label" for="contact-email">E-mail</label>
+                  </div>
+                  <div class="form-wrap">
+                    <input class="form-input" id="totalA" type="number" max="50" name="totalA" data-constraints="@Email @Required">
+                    <label class="form-label" for="totalA">Total de alumnos</label>
                   </div>
                   <div class="form-wrap">
                     <label class="form-label" for="contact-message">Comentarios</label>
