@@ -21,6 +21,7 @@
 <!--====login css-->
   <!-- main css -->
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/style-tarjetas.css" />
 </head>
 
 <body>
@@ -65,17 +66,11 @@
                 <a class="nav-link" href="../pages/formVisita.php">Visitas</a>
               </li>
 
-              <li class="nav-item submenu dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">De interés</a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Becas</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Certificaciones</a>
-                  </li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="deinteres.php">De interés</a>
               </li>
+
+
               <li class="nav-item">
                 <a class="nav-link" href="#">Ayuda</a>
               </li>
@@ -139,6 +134,3 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
   <script src="../js/gmaps.min.js"></script>
   <script src="../js/theme.js"></script>
-</body>
-
-</html>
