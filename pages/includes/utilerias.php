@@ -21,6 +21,16 @@
             return null;
         }
     }
+    function prohibido(){
+        if(session_status() == PHP_SESSION_NONE){
+            session_start();
+        }
+
+        if(!isset($_SESSION["usuario"])){
+            redireccionar("Prohibido","index.php");
+            return true;
+         }
+    }    
 
     function validar($dato){
         $dato = trim($dato);
