@@ -1,6 +1,6 @@
 <?php
     include('includes/utilerias.php');
-    
+
     $id = $_POST['id'];
     
     // Conectar a la base de datos

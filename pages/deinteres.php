@@ -2,7 +2,7 @@
 <?php
     include('includes/encabezado.php');
 ?>
-
+ <link rel="stylesheet" href="../css/style-tarjetas.css" /> 
 <div class="popular_courses section_gap_top">
     <div class="container">
             <div class="row justify-content-center">

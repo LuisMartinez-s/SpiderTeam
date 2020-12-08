@@ -1,17 +1,4 @@
-* {
-    padding: 0%;
-    margin: 0%;
-    font-family: "Lato", Helvetica, Arial, sans-serif;
-}
-/*
-.contenedor-principal-interes{
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
-    border: 5px solid white;
-    background-color: white;    
-}*/
+
 
 .contenedor-tarjetas-interes{
     display: flex;

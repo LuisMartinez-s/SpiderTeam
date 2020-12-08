@@ -5,7 +5,8 @@
     <!--Div que englobe todo -->
     <div class="contenedor-admin-tabla">        
         <link rel = "stylesheet" href = "../css/tabla.css">    
-        <table class = 'tabla'>
+        <table class = 'table'>
+        <thead class="thead-dark">
             <th>Título de la imagen</th>
             <th>Descripción</th>
             <th>Imagen</th>

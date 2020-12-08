@@ -20,9 +20,10 @@
         echo '<tr>';
         echo '<td>' . $r['nombre'] . '</td>';
         echo '<td>' . $r['descripcion'] . '</td>';        
-        echo "<td><img src= ".  $r['imagen'] ." alt='logo'></td>";
+        echo "<td><img src= ".  $r['imagen'] ." class='img-fluid' style='width:150px;' alt='logo'></td>";
         echo '<td>';
-        echo boton($r['id'], $r['nombre'], $r['descripcion'], $r['imagen'],'editar.php', 'Editar');
+        echo boton      ($r['id'], $r['nombre'], $r['descripcion'], $r['imagen'],'editar.php', 'Editar');
+        echo '<br>';
         echo boton($r['id'], $r['nombre'], $r['descripcion'], $r['imagen'],'borrar.php', 'Borrar');        
         echo '</td>';
         echo '</tr>';      
@@ -37,7 +38,7 @@
         echo '<input type = "hidden" name = "nombre" value = "' . $nombre . '">';
         echo '<input type = "hidden" name = "descripcion" value = "' . $descripcion . '">';
         echo '<input type = "hidden" name = "imagen" value = "' . $imagen . '">';
-        echo '<input type = "submit" value = "' . $texto . '">';
+        echo '<input type = "submit" class="btn btn-primary" value = "' . $texto . '">';
         echo '</form>';
     }
     

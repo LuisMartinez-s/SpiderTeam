@@ -5,6 +5,7 @@
 <head>
   <link rel="icon" href="../img/ittepic.png" type="image/png" />
   <title>TecNM Tepic</title>
+  <link rel="stylesheet" href="../css/style.css" />
   <link rel="stylesheet" href="../css/bootstrap.css" />
   <link rel="stylesheet" href="../css/flaticon.css" />
   <link rel="stylesheet" href="../css/themify-icons.css" />
@@ -20,8 +21,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <!--====login css-->
   <!-- main css -->
-  <link rel="stylesheet" href="../css/style.css" />
-  <link rel="stylesheet" href="../css/style-tarjetas.css" />
+ 
+ 
 </head>
 
 <body>
@@ -145,7 +146,7 @@
   <script src="../js/jquery.ajaxchimp.min.js"></script>
   <script src="../js/mail-script.js"></script>
   <!--gmaps Js-->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+  
   <script src="../js/gmaps.min.js"></script>
   <script src="../js/theme.js"></script>
 </html>

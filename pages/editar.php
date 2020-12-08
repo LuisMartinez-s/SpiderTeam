@@ -3,6 +3,7 @@
     include('includes/encabezado.php');
 ?>
     <!--Div que englobe todo -->
+    <link rel="stylesheet" href="../css/registrar.css" /> 
     <div class="contenedor-admin">                
         <div class="datos" id="modificable">
         <form action="actualizar.php" class="formulario" method="post" enctype="multipart/form-data">

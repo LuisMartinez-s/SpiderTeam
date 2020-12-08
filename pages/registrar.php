@@ -3,9 +3,10 @@
     include('includes/utilerias.php');
 ?>
    <!--Div que engloba el área para registrar una nueva imágen.-->
-   <link rel="stylesheet" href="../css/style.css" />  
-   <div class="contenedor-admin">       
-          
+   <link rel="stylesheet" href="../css/registrar.css" /> 
+   
+  
+   <div class="contenedor-admin">                
         <div class="datos" id="modificable">
             <form action="guardar.php" id="info" method="post" enctype="multipart/form-data">
                 <label class = "etiqueta">Título de la imagen:</label>
