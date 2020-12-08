@@ -2,7 +2,6 @@
 
     include ('includes/utilerias.php');
 
-    // PUSH
     // Conectar a la base de datos
     $conexion = conectar();
 
