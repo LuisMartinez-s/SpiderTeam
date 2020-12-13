@@ -1,4 +1,8 @@
-
+<?php 
+  if(session_status() == PHP_SESSION_NONE){
+    session_start();
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,7 +47,7 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="navbar-brand logo_h" href="index.php"><img class="img-fluid" style="width:200px;" src="../img/opcion2_new.png" alt="" /></a>
+          <a class="navbar-brand logo_h" href="index.php"><img class="img-fluid" style="width:150px;" src="../img/opcion2_new.png" alt="" /></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span> <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -84,24 +88,39 @@
               <li class="nav-item">
                 <a class="nav-link" href="faq.php">Ayuda</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link trigger-btn" href="#myModal" data-toggle="modal">Iniciar sesión</a>
-
+                            
+              <li class="nav-item submenu dropdown">
+                <a href="../pages/deinteres.php" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Administrar</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/admin.php">Administrar Galería</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/registrar.php">Subir Imágen</a>
+                  </li>
+                </ul>
               </li>
-            </ul>
+
+
+              <li class="nav-item submenu dropdown">
+                <a href="../pages/deinteres.php" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sesión</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Administrador</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="salir.php" id="entrar">Cerrar Sesión</a>
+                  </li>
+                </ul>
+              </li>
+
+              
           </div>
         </div>
       </nav>
     </div>
   </header>
   <!--================ End Header Menu Area =================-->
-
-
-  <!--================Login Area================================-->
-  <!-- Modal HTML -->
-  <?php
-    include('login.php');
-  ?>
   
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

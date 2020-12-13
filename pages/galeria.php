@@ -1,7 +1,14 @@
 <?php
-include('includes/encabezado.php');
-
-
+    if(session_status() == PHP_SESSION_NONE){
+        session_start();
+    }
+    
+    if(isset($_SESSION["usuario"])){        
+        include('includes/encabezado-admin.php');
+    }
+    else{
+        include('includes/encabezado.php');
+    }   
 ?>
 
 <!DOCTYPE html>
@@ -80,48 +87,10 @@ include('includes/encabezado.php');
       <p class="heading-1">Galería</p>
       <div class="isotope thumb-ruby-wrap wow fadeIn" data-isotope-layout="masonry" data-isotope-group="gallery" data-lightgallery="group">
         <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 isotope-item"><a class="thumb-ruby thumb-mixed_height-2 thumb-mixed_md" href="../images/gallery-image-1-1200x800-original.jpg" data-lightgallery="item"><img class="thumb-ruby__image" src="../images/gallery-image-1-440x327.jpg" alt="" width="440" height="327" />
-              <div class="thumb-ruby__caption">
-                <p class="thumb-ruby__title heading-3">Image #</p>
-                <p class="thumb-ruby__text">If you are looking for high quality wedding photography, I will be glad to help you.</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 isotope-item"><a class="thumb-ruby thumb-mixed_height-3 thumb-mixed_md" href="../images/gallery-image-9-1200x800-original.jpg" data-lightgallery="item"><img class="thumb-ruby__image" src="../images/gallery-image-9-444x683.jpg" alt="" width="444" height="683" />
-              <div class="thumb-ruby__caption">
-                <p class="thumb-ruby__title heading-3">Image #</p>
-                <p class="thumb-ruby__text">If you are looking for high quality wedding photography, I will be glad to help you.</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 isotope-item"><a class="thumb-ruby thumb-mixed_height-2 thumb-mixed_md" href="../images/gallery-image-15-1200x801-original.jpg" data-lightgallery="item"><img class="thumb-ruby__image" src="../images/gallery-image-15-440x327.jpg" alt="" width="440" height="327" />
-              <div class="thumb-ruby__caption">
-                <p class="thumb-ruby__title heading-3">Image #</p>
-                <p class="thumb-ruby__text">If you are looking for high quality wedding photography, I will be glad to help you.</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 isotope-item"><a class="thumb-ruby thumb-mixed_height-3 thumb-mixed_md" href="../images/gallery-image-10-835x1200-original.jpg" data-lightgallery="item"><img class="thumb-ruby__image" src="../images/gallery-image-10-444x683.jpg" alt="" width="444" height="683" />
-              <div class="thumb-ruby__caption">
-                <p class="thumb-ruby__title heading-3">Image #</p>
-                <p class="thumb-ruby__text">If you are looking for high quality wedding photography, I will be glad to help you.</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 isotope-item"><a class="thumb-ruby thumb-mixed_height-2 thumb-mixed_md" href="../images/gallery-image-14-1200x800-original.jpg" data-lightgallery="item"><img class="thumb-ruby__image" src="../images/gallery-image-14-440x327.jpg" alt="" width="440" height="327" />
-              <div class="thumb-ruby__caption">
-                <p class="thumb-ruby__title heading-3">Image #</p>
-                <p class="thumb-ruby__text">If you are looking for high quality wedding photography, I will be glad to help you.</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 isotope-item"><a class="thumb-ruby thumb-mixed_height-2 thumb-mixed_md" href="../images/gallery-image-2-1200x800-original.jpg" data-lightgallery="item"><img class="thumb-ruby__image" src="../images/gallery-image-2-440x327.jpg" alt="" width="440" height="327" />
-              <div class="thumb-ruby__caption">
-                <p class="thumb-ruby__title heading-3">Image #</p>
-                <p class="thumb-ruby__text">If you are looking for high quality wedding photography, I will be glad to help you.</p>
-              </div>
-            </a>
-          </div>
+         
+              <?php
+                    include('crear_tarjetas.php');
+                ?>
         </div>
       </div>
     </div>
@@ -136,7 +105,7 @@ include('includes/encabezado.php');
 
           Copyright &copy;
           <script>
-            document.write(new Date().getFullYear());
+          
           </script> Todos los derechos reservados <a href="https://www.tepic.tecnm.mx/" target="_blank">TecNm Campus Tepic</a>
           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
         </p>
