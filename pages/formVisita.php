@@ -163,11 +163,11 @@ if (isset($_SESSION["usuario"])) {
                   </div>
                   <div class="form-wrap">
                     <input class="form-input" id="encargado" type="text" name="nombreEncargado" data-constraints="@Required">
-                    <label class="form-label" for="contact-name">Nombre del encargado</label>
+                    <label class="form-label" for="encargado">Nombre del encargado</label>
                   </div>
                   <div class="form-wrap">
                     <input class="form-input" id="telefono" type="telephone" name="telefono" data-constraints="@Required">
-                    <label class="form-label" for="contact-name">Telefono</label>
+                    <label class="form-label" for="telefono">Telefono</label>
                   </div>
                   <div class="form-wrap">
                     <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">

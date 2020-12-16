@@ -98,6 +98,9 @@
                   <li class="nav-item">
                     <a class="nav-link" href="../pages/registrar.php">Subir Imágen</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/graficas.php">Visitas</a>
+                  </li>
                 </ul>
               </li>
 

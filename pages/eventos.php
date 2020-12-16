@@ -61,7 +61,7 @@ if (isset($_SESSION["usuario"])) {
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                       Commodi atque odio libero veniam accusantium, sunt ullam reiciendis
                       facere perferendis ipsam.</p>
-                    <a href="#" class="blog_btn">View More</a>
+                   
                   </div>
                 </div>
               </div>
@@ -85,7 +85,7 @@ if (isset($_SESSION["usuario"])) {
                       <h2>Inteligencia artificial</h2>
                     </a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, dolorem aperiam optio quo excepturi sunt architecto quasi dicta facilis totam.</p>
-                    <a href="single-blog.html" class="blog_btn">View More</a>
+                   
                   </div>
                 </div>
               </div>
@@ -111,7 +111,7 @@ if (isset($_SESSION["usuario"])) {
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                       At neque suscipit consequatur. Asperiores vitae ad id adipisci
                       quia ratione placeat.</p>
-                    <a href="single-blog.html" class="blog_btn">View More</a>
+                  
                   </div>
                 </div>
               </div>
@@ -136,7 +136,7 @@ if (isset($_SESSION["usuario"])) {
                     </a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, debitis! Asperiores,
                       accusantium dolor. Iste molestiae ab quos accusantium assumenda in.</p>
-                    <a href="single-blog.html" class="blog_btn">View More</a>
+                 
                   </div>
                 </div>
               </div>
@@ -161,7 +161,7 @@ if (isset($_SESSION["usuario"])) {
                     </a>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem laboriosam
                       quisquam eaque quam aperiam numquam voluptas molestiae provident unde ducimus.</p>
-                    <a href="single-blog.html" class="blog_btn">View More</a>
+                   
                   </div>
                 </div>
               </div>
