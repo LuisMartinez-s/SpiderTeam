@@ -118,7 +118,7 @@
                   <div class="form-wrap">
                     <label class="form-label" for="contact-message">Comentarios <br/>
                   
-                  Cual horario de 9 am a 5 pm se adapta mas a ti.</label>
+                  ¿Cuál horario de 9 am a 5 pm se adapta mas a ti?</label>
                     <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
                   </div>
                   <div class="form-wrap form-button offset-1">
