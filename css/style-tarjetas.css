@@ -18,17 +18,21 @@
 }
 
 .titulos{
-    font-size: 3rem;
-    padding-left: 2em;
+    font-size: 4rem;
     text-align: center;
+}
+
+.contenedor-tarjetas-interes, .titulos{
+    padding-bottom: 35px;
 }
 
 #nombre{
     position: absolute;
     top: 10px;
     left: 10px;
-    font-size: 15px;
-    color:rgb(2, 8, 44);
+    font-size: 20px;
+    /*color:rgb(2, 8, 44);*/
+    color: white;
 }
 
 #enlace{
